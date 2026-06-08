@@ -1,0 +1,99 @@
+{
+  "nodes": {
+    "burndown": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "dir": "nix",
+        "lastModified": 1779487670,
+        "narHash": "sha256-6BUDhJadYGgNDIdPi1vlwOu0smbIwORNRbf0pRWCNmY=",
+        "owner": "alexjmiller5",
+        "repo": "notion-task-burndown-chart",
+        "rev": "056d710cebd0ad4ad5ce4a181c6ad44e2a32b2f5",
+        "type": "github"
+      },
+      "original": {
+        "dir": "nix",
+        "owner": "alexjmiller5",
+        "repo": "notion-task-burndown-chart",
+        "type": "github"
+      }
+    },
+    "iac": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1779393410,
+        "narHash": "sha256-5Ic+leUAe591JekPTHFFwjZpv+TFAO2FNL73VtQRtaY=",
+        "owner": "alexjmiller5",
+        "repo": "nixos-ocp-tailscale-vm-iac",
+        "rev": "391d77dbe3655a8ae729e1d2401ecacfce9092f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "alexjmiller5",
+        "repo": "nixos-ocp-tailscale-vm-iac",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1778869304,
+        "narHash": "sha256-30sZNZoA1cqF5JNO9fVX+wgiQYjB7HJqqJ4ztCDeBZE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d233902339c02a9c334e7e593de68855ad26c4cb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1772598333,
+        "narHash": "sha256-YaHht/C35INEX3DeJQNWjNaTcPjYmBwwjFJ2jdtr+5U=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "fabb8c9deee281e50b1065002c9828f2cf7b2239",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1780749050,
+        "narHash": "sha256-3av0pIjlOWQ6rDbNOmpUSvbNnJkGORQKKjb4LtCZsIY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a799d3e3886da994fa307f817a6bc705ae538eeb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "burndown": "burndown",
+        "iac": "iac",
+        "nixpkgs": "nixpkgs_3"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
