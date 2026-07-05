@@ -11,7 +11,7 @@ Each service repo stays a pure NixOS-module + build flake. This repo owns the VM
 ## First deploy
 
 ```bash
-cp .deploy.env.example .deploy.env   # if you fork, otherwise the existing values are fine
+cp .deploy.env.example .deploy.env   # then fill in OCI_COMPARTMENT_ID (OCI Console → Profile → Tenancy) and the 1Password paths
 just oci-auth                        # one-time per session — browser flow
 just deploy-bootstrap                # mint-tailscale-key → terraform apply → nixos-infect → poll
 just fetch-hardware-config           # scp real hardware-configuration.nix back
